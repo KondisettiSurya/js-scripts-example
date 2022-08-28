@@ -41,6 +41,13 @@ console.log(name);
 //random - method to pickup the numbers randomly
 
 
+//-----------------------------------------------------------------------------------------
+
+// we use var, let, const for variable declaration
+// var is not recommend
+// let used for all variables
+// const is to primary variable where we doesnt make changes
+
 
 
 
