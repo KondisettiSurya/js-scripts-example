@@ -1,9 +1,9 @@
-console.log("hello world");
+// console.log("hello world");
 
-//variables
+// //variables
 
- name='surya';
-console.log(name);
+//  name='surya';
+// console.log(name);
 
 
 
@@ -48,7 +48,89 @@ console.log(name);
 // let used for all variables
 // const is to primary variable where we doesnt make changes
 
+//------------------------------------------------------------------------------------------
+
+//conditional operators
+//===, ==, <, >, =>, <=, !=, !==
+
+//------------------------------------------------------------------------------------------
+
+//functions
+
+// function myname(name){
+//     console.log(name);
+// }
+//  myname('krishna');
+
+//dynamic with user inference
+
+// function  myname1(name){
+//     console.log('Hi '+name+' , Nice to meet u');
+// }
+ 
+// myname1(prompt('enter the username'));
+
+//----------------------------------------------------------------------------------------------
+
+//template literals
+
+// function  myname1(name){
+   
+//     //  " `` " use ESC below button
+//     greet=`Hi ${name} , Nice to meet u`
+
+//     console.log(greet);
+//     alert(greet);
+// }
+ 
+// myname1(prompt('enter the username'));
 
 
+// add 
 
+
+// function sum(num1,num2){
+//     return  num1+num2
+// }
+ 
+
+// num3=sum(10,20);
+//  console.log(num3);
+
+
+//------------------------------------------------------------------------------------------
+
+// function sum(a,b){
+// return a+b    
+// }
+
+// function calculatefood(food,tip){
+// const tippercentage= tip / 100;
+// const finalamount=food*tippercentage;
+// const total=sum(food,finalamount);
+// return total;
+// }
+
+// console.log(calculatefood(300,20));
+
+
+//------------------------------------------------------------------------------------------
+
+//Arrow function
+
+//arrow function with explicit return
+
+// const sumArrow=(a,b) =>{
+//     return a+b;
+// }
+
+// arrow function with implicit return
+
+
+// const sum=(a,b) => a*b;
+
+// console.log(sum(10,20));
+
+
+//-----------------------------------------------------------------------------------------------
 
