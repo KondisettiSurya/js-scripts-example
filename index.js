@@ -2,7 +2,7 @@
 
 // //variables
 
-//  name='surya';
+//  name:'surya';
 // console.log(name);
 
 
@@ -133,4 +133,132 @@
 
 
 //-----------------------------------------------------------------------------------------------
+
+// Arrays
+
+// let grociers=['🍎','🍌','🍊','🍍']
+
+// console.log(grociers);
+// console.log(grociers[0]);
+// console.log(grociers[1]);
+// console.log(grociers[2]);
+// console.log(grociers[3],grociers[2]);
+
+//slice
+
+//it will pstart from 0-3
+
+// console.log(grociers.slice(0,3));
+
+
+// to add new items into array we use push
+
+//  grociers.push('🍉');
+//  console.log(grociers);
+ 
+ // to remove the items from the array we use pop
+
+//  grociers.pop();
+//  console.log(grociers);
+//  grociers.pop();
+//  console.log(grociers);
+
+// to know the index
+
+// console.log(grociers.indexOf('🍌'));
+
+// to know the length of array 
+
+// console.log(grociers.length);
+
+//-------------------------------------------------------------------------------------------
+
+
+// Objects
+
+// let person= {
+//     name:'surya',
+//     address:'rajendra nagar'
+// }
+
+
+// this is dot notation
+
+// console.log(person.name,person.address);//single line
+
+// console.log(person.address);//different line
+
+
+
+//this is bracket notation
+
+// console.log(person['name']);
+
+
+//assign data to person
+
+// person.phone='9154612347'
+// console.log(person['phone']);
+
+
+//                                example
+
+// const introducer=(name,address,phone) => {
+
+//     let person={
+//       name:prompt('enter the name'),
+//       address:prompt('enter the address'),
+//       phone:prompt('enter the phone number'),
+                
+//     }
+   
+//     intro=`Hi myself ${person.name} I live in ${person.address}, my mobile is ${person.phone}`;
+//      return intro;
+// }
+
+
+// console.log(introducer(person.name,person.address,person.phone));
+// alert(`Hi myself ${person.name} I live in ${person.address}, my mobile is ${person.phone}`);
+
+//------------------------------------------------------------------------------------------
+
+//                                    Loops
+
+
+ // for  Loop
+
+//  let grociers=['🍎','🍌','🍊','🍍'] 
+
+//  for(let i=0; i<grociers.length; i++){
+
+//     console.log(grociers[i]);
+//  }
+
+
+// let numbers=[1,2,3,4,5,6]
+
+// for(let i=0;i<numbers.length;i++){
+//     console.log(numbers[i]);
+// }
+
+// another method 
+// for(let number of numbers){
+//     console.log(number * 2 );
+// }
+
+// let howmanywords=(phrase)=>{
+
+//     let result =0;
+
+//     for(let index in phrase){
+//      console.log(Number(index) + 1)
+//     result= Number(index) + 1
+
+//     }
+// return {result}
+    
+// }
+// let phrase=prompt('enter the numbers of words')
+//    console.log(howmanywords(phrase));
+
 
